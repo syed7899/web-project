@@ -27,6 +27,8 @@ public class CalculationController {
 	@GetMapping("/workingdirectory")
 	public String workingDirectory() {
 		System.out.println("added new line in sts");
+		System.out.println("added new line in github");
+
 		return "workingdirectory Modified in github";
 	}
 
