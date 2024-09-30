@@ -28,6 +28,7 @@ public class CalculationController {
 	public String workingDirectory() {
 		System.out.println("added new line in sts");
 		System.out.println("added new line in github");
+		System.out.println("line 31 conflict");
 		return "workingdirectory Modified in github";
 	}
 
