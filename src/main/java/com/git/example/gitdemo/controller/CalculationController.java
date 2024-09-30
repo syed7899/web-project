@@ -16,5 +16,11 @@ public class CalculationController {
 	public int add(@RequestParam int n1, @RequestParam int n2, @RequestParam int n3) {
 		return n1+n2+n3;
 	}
+	
+	
+	@GetMapping("/staged")
+	public String stagged() {
+		return "staged";
+	}
 
 }
