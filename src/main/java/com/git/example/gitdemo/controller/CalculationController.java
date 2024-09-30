@@ -22,5 +22,11 @@ public class CalculationController {
 	public String stagged() {
 		return "staged";
 	}
+	
+	
+	@GetMapping("/workingdirectory")
+	public String workingDirectory() {
+		return "workingdirectory";
+	}
 
 }
