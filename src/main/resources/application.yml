@@ -1,1 +1,5 @@
-spring.application.name=gitdemo
+spring:
+ application:
+   name: myapplication
+server:
+  port: 8080
